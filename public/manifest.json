@@ -1,0 +1,54 @@
+{
+  "name": "Chrome插件V3",
+  "version": "1.0",
+  "description": "基于Vite的chrome插件V3 Demo",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "👉 AI Boom 👈"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "index.html",
+    "openPanelOnActionClick": true
+  },
+  "permissions": [
+    "declarativeContent",
+    "activeTab",
+    "sidePanel",
+    "contextMenus",
+    "storage",
+    "scripting",
+    "tabs",
+    "browsingData",
+    "bookmarks",
+    "webNavigation",
+    "history"
+  ],
+  "host_permissions": [],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "/images/app.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    },
+    {
+      "resources": [
+        "insert.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "/images/app.png",
+    "32": "/images/app.png",
+    "48": "/images/app.png",
+    "128": "/images/app.png"
+  }
+}

@@ -1,4 +1,8 @@
-# 2023金秋版：基于Vite4+Vue3的Chrome插件开发教程
+
+# 自用修改版，仅有background，单击打开侧边栏模版
+
+
+## 2023金秋版：基于Vite4+Vue3的Chrome插件开发教程
 
 基于Vite4的Chrome Extension Manifest V3工程脚手架。
 
